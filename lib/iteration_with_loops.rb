@@ -14,10 +14,9 @@ def join_nested_strings(src)
       end
       element_index += 1
     end
-    result.join("")
     row_index += 1
   end
-  result
+  result.join(" ")
 end
 example = [[8, "hi"],["bye", 10]]
 #binding pry
