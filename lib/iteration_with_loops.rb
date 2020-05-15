@@ -9,7 +9,7 @@ def join_nested_strings(src)
     element_index = 0
   
     while element_index < src[row_index].length do
-      puts src[row_index][element_index].class == "Integer"
+      puts src[row_index][element_index].is_a?("Integer")
       if src[row_index][element_index] == 
         ""
         result << src[row_index][element_index]
