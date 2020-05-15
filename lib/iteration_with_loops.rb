@@ -22,4 +22,4 @@ def join_nested_strings(src)
   result
 end
 example = [[8, "hi"],["bye", 10]]
-binding pry
+#binding pry
